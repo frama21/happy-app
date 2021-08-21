@@ -1,0 +1,25 @@
+{
+  "short_name": "'Quotes'",
+  "name": "4 Everyday Brighter & Motivation",
+  "icons": [
+    {
+      "src": "img/icon1.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/icon2.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/icon3.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "phone.php",
+  "background_color": "#29b6f6",
+  "display": "standalone",
+  "theme_color": "#29b6f6"
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Farsan|Fugaz+One');
+	body{
+ 		background: url(../../img/bgD.png) repeat;
+	}
+
+	.no{
+  		-webkit-touch-callout: none; /* iOS Safari */
+    	-webkit-user-select: none; /* Safari */
+     	-khtml-user-select: none; /* Konqueror HTML */
+       	-moz-user-select: none;  /*Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+	}
+
+	.strip-bottom{
+     	background-color: #2196f3;
+  		height:8px;  
+	}
+
+	#quote{
+		font-family: 'Farsan', cursive; font-size: 25px;
+	}
+
+	@media only screen and (max-width: 425px) {
+		.card-p{
+			margin-top: 0%;
+		   	margin-bottom: 0%;
+		}
+
+
+		.p{
+			width:100%;
+		}
+  	}
+
+	@media only screen and (max-width : 375px) {
+		#quote{
+			font-size: 23px;
+		}
+	}
