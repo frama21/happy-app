@@ -1,21 +1,27 @@
-# Lumen PHP Framework
+# Happy-app
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+Project untuk demo jurusan RPL SMKN 13 Bandung menggunakan Lumen 5.5
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## Web yang meliputi
 
-## Official Documentation
+- Quotes Generator
+- Alay Generator
+- Test Ganteng/Cantik
+- Test Berat Badan Ideal
 
-Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
+## Install
 
-## Security Vulnerabilities
+1. Download composer di link berikut [composer](https://getcomposer.org/download/)
+2. Pastikan kamu telah install apache / laragon atau independent PHP dengan PHP versi 7.0 atau lebih
+3. Jalan kan command berikut
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+```bash
+# install lumen
+$ composer install
 
-## License
+# copy .env.example jadi .env
+$ cp .env.example .env
 
-The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+# jalankan aplikasi, dan aplikasi berjalan di localhost:8000
+$ php -S localhost:8000 -t public
+```
