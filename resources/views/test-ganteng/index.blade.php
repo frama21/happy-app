@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="/css/materialize.min.css">
   <link rel="stylesheet" href="/css/icon.css">
   <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/favico.png">
+
   <style>
     .strip-bottom {
       background-color: #fa8e48;

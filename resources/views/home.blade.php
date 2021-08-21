@@ -7,6 +7,7 @@
 	<title>Demo Happy App :)</title>
 	<link rel="stylesheet" href="/css/icon.css">
 	<link rel="stylesheet" href="/css/materialize.min.css">
+	<link rel="icon" type="image/png" href="/favico.png">
 
 	<script src="/js/jquery-3.2.1.min.js"></script>
 

@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="/css/materialize.min.css">
 	<link rel="stylesheet" href="/css/icon.css">
 	<link rel="stylesheet" href="/css/alay-gen/my.css">
+	<link rel="icon" type="image/png" href="/favico.png">
 </head>
 
 <body>

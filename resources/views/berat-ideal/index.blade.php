@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" href="/css/materialize.min.css">
 	<link rel="stylesheet" href="/css/icon.css">
+	<link rel="icon" type="image/png" href="/favico.png">
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 	<style>
 		body {
