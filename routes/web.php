@@ -93,3 +93,11 @@ $router->get('/test-ganteng', function () {
 $router->post('/test-ganteng', function () {
 	return view('test-ganteng.index');
 });
+
+// health check 
+$router->get('/health', function () {
+    return response()->json([
+        'status' => 'ok',
+        'timestamp' => date('Y-m-d H:i:s'),
+    ]);
+});
